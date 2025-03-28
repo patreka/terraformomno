@@ -11,8 +11,8 @@ terraform {
 }
 
 provider "aws" {
-  access_key = "..." # AWS-ის Access Key
-  secret_key = "..." # AWS-ის Secret Key
+  access_key = "..." # aws-ის access Key
+  secret_key = "..." # aws-ის secret Key
   region     = "us-east-1" # რეგიონი, სადაც რესურსები შეიქმნება
 }
 2. VPC-ს  შექმნა
